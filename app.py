@@ -8,7 +8,7 @@ import tensorflow as tf
 from statsmodels.tsa.seasonal import seasonal_decompose
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-st.title("Prognozowanie cen kryptowalut 🪙")
+st.title("Prognozowanie cen kryptowalut ")
 st.markdown("Aplikacja do analizy i prognozowania cen kryptowalut za pomocą sieci neuronowych.")
 
 ticker = st.selectbox("Wybierz kryptowalutę:", ["BTC-USD", "ETH-USD", "ADA-USD", "XRP-USD"])
@@ -106,4 +106,4 @@ if data is not None:
             st.write(f"**R² Score:** {r2:.4f}")
 
 st.markdown("---")
-st.markdown(" *Autor: [Dawid Pytliński]* | *Kod źródłowy: [GitHub](https://github.com/TWOJ_LINK)*")
+st.markdown(" *Autor: [Dawid Pytliński]* | *Kod źródłowy: [GitHub](https://github.com/dawid-pytlinski/Deep-Learning-Analysis-Thesis.git)*")
